@@ -1,5 +1,7 @@
 package bitFlags
 
+import "fmt"
+
 type UByte uint8
 type UShort uint16
 
@@ -69,4 +71,8 @@ func (s *BitStatus) AllClear() {
 	s.val = 0
 	s.hi = 0
 	s.lo = 0
+}
+
+func Version() {
+	fmt.Println("Version 1.0.0")
 }
