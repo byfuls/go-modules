@@ -1,3 +1,3 @@
-module byfuls.com/go-modules/bitFlags
+module github.com/byfuls/go-modules/bitFlags
 
 go 1.16
