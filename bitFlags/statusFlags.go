@@ -5,6 +5,7 @@ import "fmt"
 type UByte uint8
 type UShort uint16
 
+// EXAMPLE
 const (
 	/*_______________LOBYTE_________________*/
 	Eat    UShort = 1 << iota /* 1 */
@@ -74,5 +75,5 @@ func (s *BitStatus) AllClear() {
 }
 
 func Version() {
-	fmt.Println("Version 1.0.0")
+	fmt.Println("Version 1.0.1")
 }
